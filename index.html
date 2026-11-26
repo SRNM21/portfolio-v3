@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Greg Gregorio — Full-Stack Software Developer</title>
+    <meta name="title" content="Greg Gregorio — Full-Stack Software Developer" />
+    <meta
+      name="description"
+      content="Portfolio of Greg Gregorio, a Full-Stack Software Developer specializing in building modern web, mobile, and desktop applications with React, TypeScript, Flutter, Python, and Laravel."
+    />
+    <meta name="author" content="Greg Gregorio" />
+    <meta
+      name="keywords"
+      content="Greg Gregorio, Full-Stack Developer, Software Engineer, Web Developer, React, TypeScript, Flutter, Python, Laravel, Tailwind CSS, shadcn, Portfolio"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Theme Colors -->
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Greg Gregorio — Full-Stack Software Developer" />
+    <meta
+      property="og:description"
+      content="Portfolio of Greg Gregorio, a Full-Stack Software Developer specializing in building modern web, mobile, and desktop applications with React, TypeScript, Flutter, Python, and Laravel."
+    />
+    <meta property="og:site_name" content="Greg Gregorio Portfolio" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Greg Gregorio — Full-Stack Software Developer" />
+    <meta
+      name="twitter:description"
+      content="Portfolio of Greg Gregorio, a Full-Stack Software Developer specializing in building modern web, mobile, and desktop applications with React, TypeScript, Flutter, Python, and Laravel."
+    />
+
+    <!-- Theme Script to Prevent Flash of Wrong Theme (FOUC) -->
+    <script>
+      (function() {
+        const saved = localStorage.getItem('theme');
+        if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
